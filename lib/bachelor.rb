@@ -30,6 +30,7 @@ def count_contestants_by_hometown(data, hometown)
       hash.each do |k, v|
         if v == hometown 
         counter += 1 
+      end
         end
      end
   end
